@@ -7,7 +7,7 @@ if (dashboard) {
     revenueCard.id = "revenueCard";                     //set iD
     revenueCard.innerHTML = "<h3>Revenue</h3><p>$0</p>"
     dashboard.appendChild(revenueCard);                    // Add card to the dashboard
-}
+}; 
 
 // Task 2: Updating Dashboard Metrics – Working with Lists
 const metricCards = document.querySelectorAll(".metric-card");
