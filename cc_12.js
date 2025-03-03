@@ -15,7 +15,7 @@ const metricCards = document.querySelectorAll(".metric-card");
 metricCards.forEach(card => {
     card.innerHTML += "Refreshed";     //  make it shpw the words refreshed 
     card.style.backgroundColor = `Light gray`; // make it a light gray background
-})
+}); 
 
 // Task 3: Dynamic Inventory Management – Adding and Removing Items
 const inventoryList = document.getElementById("inventoryList");
