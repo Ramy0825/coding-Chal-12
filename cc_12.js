@@ -43,7 +43,6 @@ if (customerSection) {
         console.log("Customer section clicked");
     };
 }
-
 function addCustomerCard(customerName) {
     if (!customerSection) return;        // exit if customer name does not return 
 
@@ -57,4 +56,4 @@ function addCustomerCard(customerName) {
     };
     
     customerSection.appendChild(customerCard);
-}
+};
