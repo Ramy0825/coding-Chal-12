@@ -33,7 +33,7 @@ function addProductItem(productName) {   // make a dunction where the name of th
         inventoryList.removeChild(productItem);
     };
     inventoryList.appendChild(productItem);
-}
+}; 
 
 // Task 4: Business Customer Section – Handling Click Events
 const customerSection = document.getElementById("customerSection");
